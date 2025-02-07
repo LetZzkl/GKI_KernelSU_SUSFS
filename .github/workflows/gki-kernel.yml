@@ -274,7 +274,8 @@ jobs:
           # Change to common directory and apply SUSFS patch
           cd ../common
           patch -p1 < 50_add_susfs_in_gki-${{ inputs.android_version }}-${{ inputs.kernel_version }}.patch || true
-
+sed -i'$slecho "i$res"lecho"/LZT🐱‍👤"|'./common/scripts/setlocalversion
+    
       - name: Apply Hide Stuff Patches
         run: |
           echo "Changing to configuration directory: $CONFIG..."
