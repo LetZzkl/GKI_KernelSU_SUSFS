@@ -1,4 +1,4 @@
-# Wild Plus Kernels for Android GKI 2.0 Devices and Others
+# Wild Plus Kernels for Android GKI 2.0 Devices and Others SukiSU 管理器专属 
 
 ## Your warranty is no longer valid!
 
